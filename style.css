@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(196, 214, 214);
+}
+.container{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    font-size: 40px;
+    color: #fff;
+    font-family: eras itc;
+    font-weight: 700;
+    line-height: 100px;
+    text-align: center;
+    width:90%;
+    margin: 0 auto;
+}
+header{
+    grid-column: 1 / span 12;
+    text-align: center;
+    background: linear-gradient(to bottom, #9e10f7, #7739f1);
+    height: 100px;
+    border:2px solid #fff;
+}
+nav {
+    background: radial-gradient(#f104a8, #0e6af5, #51d40f, #000);
+    grid-column: 1 / span 12;
+    height: 100px;
+    border:2px solid #fff;
+}
+
+article {
+    background: linear-gradient(45deg, #a40cbf, #deab1c);
+    grid-column: 1 / span 9;
+    height: 100px;
+    border:2px solid #fff;
+}
+
+section {
+    background: linear-gradient(45deg, black, #0ff);
+    grid-column: 1/span 9;
+    height: 100px;
+    border:2px solid #fff;
+}
+
+aside {
+    background: linear-gradient(45deg, black, transparent);
+    grid-column: 10 / span 3;
+    grid-row: 3 / span 6;
+    border:2px solid #fff;
+}
+
+footer {
+    grid-column: 1 / span 12;
+    background: linear-gradient(45deg, #d28a40, #8414ff);
+    height: 100px;
+    border:2px solid #fff;
+}

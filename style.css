@@ -58,3 +58,9 @@ footer {
     height: 100px;
     border:2px solid #fff;
 }
+footer p {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}

@@ -46,7 +46,7 @@ section {
 }
 
 aside {
-    background: linear-gradient(45deg, black, transparent);
+    background: linear-gradient(to right, black, transparent);
     grid-column: 10 / span 3;
     grid-row: 3 / span 6;
     border:2px solid #fff;
